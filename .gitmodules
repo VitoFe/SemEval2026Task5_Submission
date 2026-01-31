@@ -10,3 +10,6 @@
 [submodule "approaches/flan-t5-xl"]
 	path = approaches/flan-t5-xl
 	url = https://github.com/ChiartanoAndrea/SemEval2026Task5
+[submodule "approaches/deberta-a2"]
+	path = approaches/deberta-a2
+	url = https://github.com/giuseppegabrieleciulla/SemEval2026Task5
