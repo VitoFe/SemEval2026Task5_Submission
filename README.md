@@ -1,2 +1,3 @@
-# SemEval2026Task5_Submission
-Submission for SemEval 2026 Task 5
+# SemEval2026Task5 Submission
+> This meta-repository orchestrates the distinct modeling strategies developed for SemEval 2026 Task 5. To ensure **strict experimental isolation** and **reproducibility**, each approach is encapsulated as an independent submodule within the `approaches` directory.
+> This architectural decision decouples dependency management, allowing disparate frameworks (e.g., distinct CUDA versions, conflicting library requirements) to coexist without contamination. It facilitates a modular comparative analysis, where individual data pipelines and architectures are preserved in their optimal, version-controlled states.
