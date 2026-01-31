@@ -1,0 +1,12 @@
+[submodule "approaches/deberta"]
+	path = approaches/deberta
+	url = https://github.com/VitoFe/SemEval2026Task5
+[submodule "approaches/flan-t5"]
+	path = approaches/flan-t5
+	url = https://github.com/EmanuelePietroCometti/semeval-task5-flanT5.git
+[submodule "approaches/mistral-7b"]
+	path = approaches/mistral-7b
+	url = https://github.com/lorenzo0-ctrl/SemEval2026Task5
+[submodule "approaches/flan-t5-xl"]
+	path = approaches/flan-t5-xl
+	url = https://github.com/ChiartanoAndrea/SemEval2026Task5
