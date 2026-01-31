@@ -21,3 +21,7 @@ git submodule update --init --recursive
 
 **Approach-Specific Documentation**
 Execution logic is decoupled. Navigate to the target directory under `approaches/` and consult the local `README.md`. Each submodule contains self-contained instructions for environment instantiation, data preprocessing, and inference specific to that architecture.
+
+---
+
+[Paper detailing our approach](.\Paper_Submission_Group31_Task5.pdf)
