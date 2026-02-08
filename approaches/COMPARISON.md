@@ -107,7 +107,7 @@
 
 | Aspect                      | deberta         | deberta-a2       | flan-t5                 | flan-t5-xl      | mistral-7b                  |
 | :-------------------------- | :-------------- | :--------------- | :---------------------- | :-------------- | :-------------------------- |
-| **Prediction Clipping**     | ✅ [1.99, 4.01] | ❌ Not mentioned | ❌ Not mentioned        | ✅ [1.99, 4.01] | ✅ [1.99, 4.01]             |
+| **Prediction Clipping**     | ✅ [1.99, 4.01] | ✅ [1.99, 4.01] | ❌ Not mentioned        | ✅ [1.99, 4.01] | ✅ [1.99, 4.01]             |
 | **Calibration**             | ❌ No           | ❌ No            | ❌ No                   | ❌ No           | ✅ Linear regression on dev |
 | **Ensemble**                | ❌ No           | ✅ Available     | ❌ No                   | ❌ No           | ❌ No                       |
 | **Expected Value Decoding** | ❌ N/A          | ❌ N/A           | ✅ Yes (key innovation) | ❌ N/A          | ❌ N/A                      |
