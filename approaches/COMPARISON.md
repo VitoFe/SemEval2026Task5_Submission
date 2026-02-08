@@ -146,25 +146,6 @@ By clipping to `[1.99, 4.01]`:
 
 ---
 
-## 10. Results Comparison
-
-| Approach           | Accuracy (within SD) | Spearman ρ | p-Value   | Dataset          |
-| :----------------- | :------------------- | :--------- | :-------- | :--------------- |
-| **deberta**        | 0.7957 (740/930)     | 0.6866     | 1.23e-130 | Test             |
-| **deberta-a2**     | N/A (see ablations)  | N/A        | N/A       | N/A              |
-| **flan-t5 (v6.0)** | **0.8107**           | 0.6841     | 2.44e-129 | Test (codabench) |
-| **flan-t5-xl**     | 0.8452               | **0.7241** | N/A       | Dev              |
-| **mistral-7b**     | **0.8570** (797/930) | **0.7623** | 1.44e-177 | Test             |
-
-### Winner Analysis
-
-- **Best Accuracy**: `mistral-7b` (0.8570)
-- **Best Spearman**: `mistral-7b` (0.7623)
-- **Best Efficiency**: `deberta` (runs on 6GB GPU)
-- **Best Research Clarity**: `deberta` (extensive documentation)
-
----
-
 ## 11. Failed Experiments & Negative Results
 
 | Approach       | Experiment                                | Outcome                         | Lesson                                                                    |
