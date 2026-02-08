@@ -2,13 +2,13 @@
 
 ## Quick Reference Summary
 
-| Approach       | Model                     | Size  | Best Accuracy | Best Spearman | Key Innovation                                    |
-| :------------- | :------------------------ | :---- | :------------ | :------------ | :------------------------------------------------ |
-| **deberta**    | DeBERTa-v3-large          | 435M  | **0.7957**    | 0.6866        | BCE bounded regression + Accuracy-aware soft loss |
-| **deberta-a2** | DeBERTa-v3-large          | 435M  | N/A           | N/A           | Custom batch sampler + MSE/Spearman hybrid loss   |
-| **flan-t5**    | Flan-T5-XL                | 3B    | **0.8107**    | **0.6841**    | Regression via Classification (Expected Value)    |
-| **flan-t5-xl** | Flan-T5-XL (Encoder-only) | ~1.5B | 0.8452        | **0.7241**    | Encoder-only + Contrastive Loss                   |
-| **mistral-7b** | Mistral-7B-Instruct       | 7B    | **0.8570**    | **0.7623**    | Semantic priming + Decoder regression head        |
+| Approach       | Model                     | Size  |  Key Innovation                                    |
+| :------------- | :------------------------ | :---- |  :------------------------------------------------ |
+| **deberta**    | DeBERTa-v3-large          | 435M  |  BCE bounded regression + Accuracy-aware soft loss |
+| **deberta-a2** | DeBERTa-v3-large          | 435M  | Custom batch sampler + MSE/Spearman hybrid loss   |
+| **flan-t5**    | Flan-T5-XL                | 3B    |  Regression via Classification (Expected Value)    |
+| **flan-t5-xl** | Flan-T5-XL (Encoder-only) | ~1.5B | Encoder-only + Contrastive Loss                   |
+| **mistral-7b** | Mistral-7B-Instruct       | 7B    | Semantic priming + Decoder regression head        |
 
 ---
 
